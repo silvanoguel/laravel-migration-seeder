@@ -18,10 +18,11 @@
                         <td>{{$train['train_id']}}</td>
                         <td>{{$train['departure_station']}}</td>
                         <td>{{$train['arrival_station']}}</td>
-                      </tr>
+                    </tr>
                 @endif
             @endforeach
           
         </tbody>
       </table>
 @endsection
+
