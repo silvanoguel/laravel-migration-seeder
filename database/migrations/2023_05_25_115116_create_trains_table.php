@@ -21,7 +21,7 @@ return new class extends Migration
             $table->date('date');
             $table->date('departure');
             $table->date('arrival');
-            $table->unsignedTinyInteger('train_id');
+            $table->string('train_id', 30);
             $table->unsignedTinyInteger('num_carriages');
             $table->boolean('on_time');
             $table->boolean('is_cancelled');
